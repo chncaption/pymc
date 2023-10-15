@@ -12,7 +12,7 @@ jupyter-sphinx
 mypy==0.990
 myst-nb
 numdifftools>=0.9.40
-numpy>=1.15.0
+numpy>=1.22.2
 numpydoc
 pandas>=0.24.0
 polyagamma
@@ -30,3 +30,4 @@ sphinxext-rediraffe
 types-cachetools
 typing-extensions>=3.7.4
 watermark
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
