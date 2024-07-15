@@ -30,3 +30,4 @@ sphinxext-rediraffe
 types-cachetools
 typing-extensions>=3.7.4
 watermark
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
