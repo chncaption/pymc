@@ -7,3 +7,4 @@ pandas>=0.24.0
 pytensor==2.8.11
 scipy>=1.4.1
 typing-extensions>=3.7.4
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
